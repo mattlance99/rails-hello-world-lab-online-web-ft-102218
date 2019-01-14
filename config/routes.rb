@@ -1,4 +1,11 @@
+require 'pry'
+
 Rails.application.routes.draw do
+<<<<<<< HEAD
+=======
+  binding.pry
+  get 'static/hello_world'
+>>>>>>> 10b1f5837f4fa88200f87cf94e1d952b63e30518
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

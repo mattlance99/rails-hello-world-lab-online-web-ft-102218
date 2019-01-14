@@ -113,6 +113,7 @@ Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
   [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
 Started GET "/hello_world" for 127.0.0.1 at 2019-01-13 20:37:28 +0000
   [1m[35m (0.1ms)[0m  rollback transaction
+<<<<<<< HEAD
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[36m (3.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
   [1m[35m (0.2ms)[0m  select sqlite_version(*)
@@ -233,3 +234,5 @@ Processing by StaticController#hello_world as HTML
   Rendered static/hello_world.html.erb within layouts/application (1.7ms)
 Completed 200 OK in 320ms (Views: 308.5ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  rollback transaction
+=======
+>>>>>>> 10b1f5837f4fa88200f87cf94e1d952b63e30518
